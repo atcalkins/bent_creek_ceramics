@@ -6,6 +6,14 @@ html {
 
 }
 
+body{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  align-items: center;
+
+}
+
 a:link {
   color: #968772;
 }
@@ -23,27 +31,25 @@ a:hover{
   font-family: 'Merriweather'
 }
 
-article img{
-  width: 30%;
-}
 
-#index-main{
+main{
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
-  margin: 5px;
+  max-width: 1000px;
+  justify-content: center;
+
 
 
 }
 
-
-#main-header{
-
-
+main img{
+  height: 200px;
+  margin: 10px;
 }
 
 #index-nav{
   background-color: #fff;
+  width: 100%;
 
 }
 
@@ -58,8 +64,6 @@ article img{
   background-color: #2b2f26;
   color: #fff;
   padding: 20px;
-  display: flex;
-  align-self: flex-end;
   width: 100%;
 }
 
@@ -68,9 +72,9 @@ footer{
   bottom: 100px;
   background-color: #2b2f26;
   color: #fff;
-  padding: 20px;
+  padding: 10px;
+  margin: 10px;
   font-size: 12px;
-  width: 10%;
 }
 
 Background: #F2F1E8
