@@ -2,18 +2,48 @@ html {
   font-family: 'Merriweather', serif;
   font-family: 'Roboto', sans-serif;
   background-color: #F2F1E8;
+  text-decoration-color: #131511;
 
 }
 
-#index-body{
+a:link {
+  color: #968772;
+}
+
+a:hover{
+  color: #967343;
+}
+
+#index-h1{
+  text-align: center;
+}
+
+#index-h2{
+  text-align: center;
+  font-family: 'Merriweather'
+}
+
+article img{
+  width: 30%;
+}
+
+#index-main{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 5px;
+
 
 }
 
-#index-header{
+
+#main-header{
+
 
 }
 
 #index-nav{
+  background-color: #fff;
 
 }
 
@@ -22,6 +52,25 @@ html {
 }
 
 #index-h2{
+}
+
+#main-footer{
+  background-color: #2b2f26;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  align-self: flex-end;
+  width: 100%;
+}
+
+footer{
+  position: relative;
+  bottom: 100px;
+  background-color: #2b2f26;
+  color: #fff;
+  padding: 20px;
+  font-size: 12px;
+  width: 10%;
 }
 
 Background: #F2F1E8
