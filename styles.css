@@ -53,6 +53,17 @@ main img{
 
 }
 
+nav .right{
+    font-size: 14px;
+    padding: 10px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+img .header{
+  float: left;
+}
+
 #index-h1{
 
 }
@@ -67,6 +78,7 @@ main img{
   width: 100%;
 }
 
+
 footer{
   position: relative;
   bottom: 100px;
@@ -76,6 +88,32 @@ footer{
   margin: 10px;
   font-size: 12px;
 }
+
+.birdhouse{
+  float: left;
+  height: 130px;
+  width: 160px;
+}
+
+.birdhouse img{
+  display: block;
+}
+
+.wideabout img{
+  width: 1000px;
+}
+
+.about-third{
+  float: right;
+  height: 130px;
+  width: 160px;
+}
+
+.about-third img{
+  display: block;
+}
+
+
 
 Background: #F2F1E8
 Text: #131511
