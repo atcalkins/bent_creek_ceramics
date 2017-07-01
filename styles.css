@@ -103,6 +103,13 @@ footer{
   width: 1000px;
 }
 
+p .image-text{
+  text-align: center;
+  position: relative;
+  bottom: 30px;
+  color: white;
+}
+
 .about-third{
   float: right;
   height: 130px;
@@ -112,6 +119,16 @@ footer{
 .about-third img{
   display: block;
 }
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+
 
 
 
