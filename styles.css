@@ -144,6 +144,7 @@ footer{
 
 #about-h1{
   text-align: center;
+  font-family: 'Merriweather', serif;
 
 }
 
@@ -152,6 +153,7 @@ footer{
 }
 
 #about-main{
+  font-family: 'Roboto', sans-serif;
   width: 800px;
   padding-top: 40px;
   padding-bottom: 40px;
@@ -201,11 +203,19 @@ footer{
 }
 
 table {
-    border-collapse: collapse;
+  margin: 20px 0 30px 60px;
+  table-layout: auto;
+  position: relative;
+  max-width: 70%;
+  margin-left: 140px;
+ margin-right: 40px;
+ font-family: 'Merriweather', serif;
+ font-weight: lighter;
+ font-size: 20px;
 }
 
-table, th, td {
-    border: 1px solid black;
+table, th {
+    padding: 0 40px 0 20px;
 }
 
 /******Newsletter Styles*******/
@@ -217,6 +227,8 @@ table, th, td {
 }
 
 #newsletter-main {
+  font-family: 'Merriweather', serif;
+  font-weight: lighter;
   margin: 80px auto;
   background-color: #f2f1e8;
   background: white;
@@ -229,6 +241,7 @@ table, th, td {
 
 .button {
   font-family: 'Merriweather', serif;
+  font-weight: lighter;
   font-size: 15px;
   background-color: #968772;
   border: none;
